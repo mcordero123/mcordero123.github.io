@@ -40,6 +40,7 @@ span{
     font-weight: bolder;
     color: #4FC3F7;
     margin-bottom: 20px;
+    text-decoration: underline #4FC3F7;
 }
 
 .heads2 h2{
@@ -58,7 +59,7 @@ span{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     font-weight: bolder;
-    
+    text-decoration: underline blue;
 }
 .bienvenido{
     background: #20428c;
@@ -133,4 +134,19 @@ span{
     font-weight: bolder;
     margin-bottom: 50px;
     text-decoration: underline blue;
+}
+
+.pepe1{
+  overflow: hidden;
+  border-right: .16em solid rgb(0, 217, 255);
+  white-space: nowrap;
+  animation: typing 2.8s steps(74, end) forwards;
+  font-size: 1.6rem;
+  width: 0;
+  display: inline-block;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 76ch; }
 }
