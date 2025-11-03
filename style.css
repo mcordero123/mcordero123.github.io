@@ -1,0 +1,159 @@
+.body1{
+    background: rgb(16, 16, 16);
+}
+span{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: radial-gradient(circle,rgb(255, 255, 255) 0%, rgb(200, 200, 200) 100%);   
+    background-clip: text;
+    color: transparent;
+
+}
+.heads h1{
+    background: linear-gradient(90deg,rgba(1, 0, 84, 1) 0%, rgba(9, 9, 121, 1) 40%, rgba(0, 157, 255, 1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.hobbies {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    font-weight: bolder;
+    justify-content: center;
+}
+.habilidades{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    color: red;
+}
+.img-skill {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 5px;
+}
+.habilidades .card-title{
+    font-weight: bolder;
+
+}
+.heads2 h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    font-weight: bolder;
+    color: #4FC3F7;
+    margin-bottom: 20px;
+    text-decoration: underline #4FC3F7;
+}
+
+.heads2 h2{
+    margin-top: 20px;
+    text-align: center;
+    color: #ECEFF1;
+    font-size: 25px;
+}
+.heads2 h3{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: radial-gradient(circle,rgb(7, 45, 126) 0%, rgb(14, 1, 87) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline blue;
+}
+.bienvenido{
+    background: #20428c;
+    background: linear-gradient(90deg,rgb(24, 54, 118) 0%, rgba(0, 56, 105, 1) 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+.lead{
+    color: rgb(255, 255, 255);
+}
+
+.nav-pills .nav-link{
+    color: #1d45c8;
+}
+
+.nav-pills .nav-link:hover{
+    color: #3d6aff;
+}
+.nav-pills .nav-link.active {
+    color: white !important;
+    background-color: #1F3A93 !important;
+}
+
+.nav-pills .nav-link.active:hover {
+    color: white !important;
+    background-color: #3d6aff !important;
+}
+.headproyecto{
+    text-align: center;
+    background: radial-gradient(circle,rgb(7, 45, 126) 0%, rgb(14, 1, 87) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    text-decoration: underline blue;
+}
+.parrafo{
+    color:white;
+    font-size: 17px;
+}
+.span2{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.label{
+    color: white;
+    font-size: 17px;
+
+}
+.contactoimg{
+    height: 500px;
+    width: auto;
+}
+.imgs{
+    height: 100px;
+    width: auto;
+    margin-bottom: 20px;
+}
+.contacto2{
+    text-align: center;
+    background: radial-gradient(circle,rgb(7, 45, 126) 0%, rgb(14, 1, 87) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    text-decoration: underline blue;
+}
+
+.pepe1{
+  overflow: hidden;
+  border-right: .16em solid rgb(0, 217, 255);
+  white-space: nowrap;
+  animation: typing 2.8s steps(74, end) forwards;
+  font-size: 1.6rem;
+  width: 0;
+  display: inline-block;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 76ch; }
+}
+
